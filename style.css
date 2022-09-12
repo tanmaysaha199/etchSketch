@@ -1,0 +1,50 @@
+body{
+    margin: 30px;
+    background-color: pink;    
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+} 
+
+span{
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+button{
+    color: blue;
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: larger;
+    box-shadow: 5px;
+    
+}
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    flex:auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.sqrRow{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    border: solid;  
+    flex-direction: column;
+    text-align: center;
+    border-width: 1px; 
+}
+
+.sqrColumn {
+       
+    border: solid;  
+    border-width: 1px; 
+} 
